@@ -1,0 +1,83 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Smoke Test Suite" parallel="none" thread-count="2">
+	<listeners>
+		<listener class-name="sdfc_utilities.Listener_Utilities"></listener>
+	</listeners>
+<parameter name="browser name" value="chrome"></parameter>
+	<test name="LoginPage Tests">
+		<classes>
+				<class name="sdfc_tests.Login_test">
+					<methods>
+					<include name="loginTC_01"></include>
+					<include name="loginTC02"></include>
+					<include name="loginTC03"></include>
+					<include name="loginTC04a"></include>
+					<include name="loginTC04b"></include>
+					</methods>
+				</class>
+		</classes>
+	</test>
+	<test name="UserMenuPage Tests">
+		<classes>
+				<class name="sdfc_tests.UserMenu_test">
+					<methods>
+					<include name="loginTC05"></include>
+					<include name="loginTC06"></include>
+					<include name="loginTC07"></include>
+					<include name="loginTC08"></include>
+					<include name="loginTC09"></include>
+					</methods>
+				</class>
+		</classes>
+	</test>
+	<test name="CreateAccountPage Tests">
+		<classes>
+				<class name="sdfc_tests.CreateAccount_test">
+					<methods>
+					<include name="loginTC10"></include>
+					<include name="loginTC11"></include>
+					<include name="loginTC12"></include>
+					<include name="loginTC13"></include>
+					<include name="loginTC14"></include>
+					</methods>
+				</class>
+		</classes>
+	</test>
+	<test name="CreateOppPage Tests">
+		<classes>
+				<class name="sdfc_tests.CreateOpp_test">
+					<methods>
+					
+					</methods>
+				</class>
+		</classes>
+	</test>
+	<test name="LeadsPage Tests">
+		<classes>
+				<class name="sdfc_tests.Leads_test">
+					<methods>
+					
+					</methods>
+				</class>
+		</classes>
+	</test>
+	<test name="ContactsPage Tests">
+		<classes>
+				<class name="sdfc_tests.Contacts_test">
+					<methods>
+					
+					</methods>
+				</class>
+		</classes>
+	</test>
+	<test name="RandomScenariosPage Tests">
+		<classes>
+				<class name="sdfc_tests.RandomScenarios_test">
+					<methods>
+					
+					</methods>
+				</class>
+		</classes>
+	</test>
+	
+</suite>

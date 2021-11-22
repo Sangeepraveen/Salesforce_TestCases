@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" name="Failed suite [Smoke Test Suite]" guice-stage="DEVELOPMENT">
+  <parameter name="browser name" value="chrome"/>
+  <listeners>
+    <listener class-name="sdfc_utilities.Listener_Utilities"/>
+  </listeners>
+  <test thread-count="2" name="UserMenuPage Tests(failed)">
+    <classes>
+      <class name="sdfc_tests.UserMenu_test">
+        <methods>
+          <include name="launchApp"/>
+          <include name="setUp"/>
+          <include name="loginTC07"/>
+          <include name="loginTC06"/>
+          <include name="finishtest"/>
+        </methods>
+      </class> <!-- sdfc_tests.UserMenu_test -->
+    </classes>
+  </test> <!-- UserMenuPage Tests(failed) -->
+  <test thread-count="2" name="CreateOppPage Tests(failed)">
+    <classes>
+      <class name="sdfc_tests.CreateOpp_test">
+        <methods>
+          <include name="loginTC_16"/>
+          <include name="finishtest"/>
+          <include name="setUp"/>
+          <include name="loginTC_18"/>
+          <include name="loginTC_17"/>
+          <include name="launchApp"/>
+          <include name="loginTC_19"/>
+        </methods>
+      </class> <!-- sdfc_tests.CreateOpp_test -->
+    </classes>
+  </test> <!-- CreateOppPage Tests(failed) -->
+  <test thread-count="2" name="LeadsPage Tests(failed)">
+    <classes>
+      <class name="sdfc_tests.Leads_test">
+        <methods>
+          <include name="setUp"/>
+          <include name="loginTC_24"/>
+          <include name="launchApp"/>
+          <include name="loginTC_22"/>
+          <include name="finishtest"/>
+          <include name="loginTC_23"/>
+          <include name="loginTC_21"/>
+        </methods>
+      </class> <!-- sdfc_tests.Leads_test -->
+    </classes>
+  </test> <!-- LeadsPage Tests(failed) -->
+  <test thread-count="2" name="ContactsPage Tests(failed)">
+    <classes>
+      <class name="sdfc_tests.Contacts_test">
+        <methods>
+          <include name="loginTC_32"/>
+          <include name="loginTC_31"/>
+          <include name="finishtest"/>
+          <include name="loginTC_30"/>
+          <include name="loginTC_29"/>
+          <include name="loginTC_28"/>
+          <include name="launchApp"/>
+          <include name="loginTC_27"/>
+          <include name="setUp"/>
+          <include name="loginTC_26"/>
+        </methods>
+      </class> <!-- sdfc_tests.Contacts_test -->
+    </classes>
+  </test> <!-- ContactsPage Tests(failed) -->
+  <test thread-count="2" name="RandomScenariosPage Tests(failed)">
+    <classes>
+      <class name="sdfc_tests.RandomScenarios_test">
+        <methods>
+          <include name="finishtest"/>
+          <include name="loginTC_34"/>
+          <include name="setUp"/>
+          <include name="loginTC_36"/>
+          <include name="loginTC_35"/>
+          <include name="loginTC_37"/>
+          <include name="launchApp"/>
+        </methods>
+      </class> <!-- sdfc_tests.RandomScenarios_test -->
+    </classes>
+  </test> <!-- RandomScenariosPage Tests(failed) -->
+</suite> <!-- Failed suite [Smoke Test Suite] -->
