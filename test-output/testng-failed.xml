@@ -3,15 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="sdfc_tests.UserMenu_test">
+      <class name="sdfc_tests.Leads_test">
         <methods>
-          <include name="launchApp"/>
           <include name="setUp"/>
-          <include name="loginTC07"/>
-          <include name="loginTC06"/>
+          <include name="loginTC_24"/>
+          <include name="launchApp"/>
           <include name="finishtest"/>
         </methods>
-      </class> <!-- sdfc_tests.UserMenu_test -->
+      </class> <!-- sdfc_tests.Leads_test -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

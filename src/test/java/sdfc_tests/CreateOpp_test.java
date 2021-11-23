@@ -8,6 +8,7 @@ import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 import sdfc_pages.CreateOppPage;
+import sdfc_pages.RandomScenariosPage;
 import sdfc_utilities.Data_Utilities;
 import sdfc_utilities.Listener_Utilities;
 
@@ -62,9 +63,14 @@ public class CreateOpp_test extends Base_test{
 			bu.clickOnElement(CreateOppPage.click_OppName);
 			bu.clearText(CreateOppPage.click_OppName);
 			bu.sendText(CreateOppPage.click_OppName, du.readAccountsProperties("prod.oppor_Name"));
-			bu.clickOnElement(CreateOppPage.click_Opp_AccName);
-			bu.clearText(CreateOppPage.click_Opp_AccName);
-			bu.sendText(CreateOppPage.click_Opp_AccName, du.readAccountsProperties("prod.oppor_AccNam"));
+			
+			bu.clickOnElement(CreateOppPage.browse_Opp_AccName);
+			driver.switchTo().frame(CreateOppPage.browse_Opp_AccName);
+			bu.isElementVisible(CreateOppPage.Selectname);
+			bu.clickOnElement(CreateOppPage.Selectname);
+			//bu.clearText(CreateOppPage.click_Opp_AccName);
+			//bu.sendText(CreateOppPage.click_Opp_AccName, du.readAccountsProperties("prod.oppor_AccNam"));
+			
 			bu.clickOnElement(CreateOppPage.click_closedate);
 			bu.clickOnElement(CreateOppPage.click_closedatemonth);
 			bu.clickOnElement(CreateOppPage.click_closedate_date);

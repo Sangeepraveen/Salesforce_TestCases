@@ -113,6 +113,12 @@ public class CreateAccount_test extends Base_test{
 		bu.clickOnElement(CreateAccountPage.name_mergerecords);
 		bu.sendText(CreateAccountPage.name_mergerecords, du.readAccountsProperties("prod.Merge_records_Name"));
 		bu.clickOnElement(CreateAccountPage.click_findaccounts);
+		bu.isElementVisible(CreateAccountPage.select1);
+		bu.isElementSelected(CreateAccountPage.select1);
+		bu.isElementVisible(CreateAccountPage.select2);
+		bu.isElementSelected(CreateAccountPage.select2);
+		//bu.selectElementText(CreateAccountPage.select1);
+		//bu.selectElementText(CreateAccountPage.select2);
 		bu.clickOnElement(CreateAccountPage.click_next);
 		bu.clickOnElement(CreateAccountPage.click_merge_button);
 		Alert al = driver.switchTo().alert();

@@ -104,6 +104,10 @@ public class Leads_test extends Base_test{
 			bu.waitForElement(LeadsPage.close_ad, driver);
 			bu.clickOnElement(LeadsPage.close_ad);
 			bu.clickOnElement(LeadsPage.click_new);
+			bu.isElementVisible(LeadsPage.f_name);
+			bu.clickOnElement(LeadsPage.f_name);
+			bu.clearText(LeadsPage.f_name);
+			bu.sendText(LeadsPage.f_name, du.readAccountsProperties("prod.leads_fname"));
 			bu.isElementVisible(LeadsPage.l_name);
 			bu.clickOnElement(LeadsPage.l_name);
 			bu.clearText(LeadsPage.l_name);

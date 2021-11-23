@@ -27,8 +27,11 @@ public class CreateOppPage {
 	@FindBy(xpath = "//input[@id='opp3']")
 	public static WebElement click_OppName;
 	
-	@FindBy(xpath = "//input[@id='opp4']")
-	public static WebElement click_Opp_AccName;
+	@FindBy(xpath = "//*[@id=\"opp4_lkwgt\"]/img")
+	public static WebElement browse_Opp_AccName;
+	
+	@FindBy(xpath = "//*[@id=\"new\"]/div/div[3]/div/div[2]/table/tbody/tr[2]/th/a")
+	public static WebElement Selectname;
 	
 	@FindBy(xpath = "//input[@id='opp9']")
 	public static WebElement click_closedate;

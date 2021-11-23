@@ -69,6 +69,12 @@ public class CreateAccountPage {
 	@FindBy(className = "rightArrowIcon")
 	public static WebElement add;
 	
+	@FindBy(xpath = "//*[@id=\"cid0\"]")
+	public static WebElement select1;
+	
+	@FindBy(xpath = "//*[@id=\"cid1\"]")
+	public static WebElement select2;
+	
 	@FindBy(name = "save")
 	public static WebElement save_Edit;
 	

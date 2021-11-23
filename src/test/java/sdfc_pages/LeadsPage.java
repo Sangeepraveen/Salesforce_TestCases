@@ -40,6 +40,9 @@ public class LeadsPage {
 	@FindBy(name = "new")
 	public static WebElement click_new;
 	
+	@FindBy(xpath = "//*[@id=\"name_firstlea2\"]")
+	public static WebElement f_name;
+	
 	@FindBy(xpath = "//*[@id='name_lastlea2']")
 	public static WebElement l_name;
 	

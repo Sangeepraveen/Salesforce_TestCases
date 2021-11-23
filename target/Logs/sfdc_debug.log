@@ -730,3 +730,99 @@
 2021-11-22 16:24:43 INFO  App_Utilities 66 - Chromedriver setup is done
 2021-11-22 16:24:55 INFO  UserMenu_test 102 - TC_07 is Started
 2021-11-22 16:25:47 INFO  App_Utilities 66 - Chromedriver setup is done
+2021-11-22 19:45:57 INFO  App_Utilities 66 - Chromedriver setup is done
+2021-11-22 19:45:59 INFO  CreateAccount_test 47 - TC_10 is Started
+2021-11-22 19:46:14 INFO  App_Utilities 66 - Chromedriver setup is done
+2021-11-22 19:46:16 INFO  CreateAccount_test 66 - TC_11 is Started
+2021-11-22 19:46:24 INFO  App_Utilities 66 - Chromedriver setup is done
+2021-11-22 19:46:27 INFO  CreateAccount_test 82 - TC_12 is Started
+2021-11-22 19:46:34 INFO  App_Utilities 66 - Chromedriver setup is done
+2021-11-22 19:46:35 INFO  CreateAccount_test 107 - TC_13 is Started
+2021-11-22 19:46:42 INFO  App_Utilities 66 - Chromedriver setup is done
+2021-11-22 19:46:43 INFO  CreateAccount_test 131 - TC_14 is Started
+2021-11-22 19:46:53 INFO  App_Utilities 105 - Total time taken: 57513
+2021-11-22 19:46:53 INFO  App_Utilities 106 - extent report flushed
+2021-11-22 19:47:59 INFO  App_Utilities 66 - Chromedriver setup is done
+2021-11-22 19:48:00 INFO  CreateAccount_test 107 - TC_13 is Started
+2021-11-22 19:48:11 INFO  App_Utilities 105 - Total time taken: 14278
+2021-11-22 19:48:11 INFO  App_Utilities 106 - extent report flushed
+2021-11-22 19:49:05 INFO  App_Utilities 66 - Chromedriver setup is done
+2021-11-22 19:49:07 INFO  CreateAccount_test 107 - TC_13 is Started
+2021-11-22 19:49:20 INFO  App_Utilities 105 - Total time taken: 16088
+2021-11-22 19:49:20 INFO  App_Utilities 106 - extent report flushed
+2021-11-22 19:53:00 INFO  App_Utilities 66 - Chromedriver setup is done
+2021-11-22 19:53:01 INFO  CreateAccount_test 107 - TC_13 is Started
+2021-11-22 19:53:08 INFO  App_Utilities 105 - Total time taken: 11529
+2021-11-22 19:53:08 INFO  App_Utilities 106 - extent report flushed
+2021-11-22 20:01:18 INFO  App_Utilities 66 - Chromedriver setup is done
+2021-11-22 20:01:19 INFO  CreateAccount_test 107 - TC_13 is Started
+2021-11-22 20:01:27 INFO  App_Utilities 105 - Total time taken: 10642
+2021-11-22 20:01:27 INFO  App_Utilities 106 - extent report flushed
+2021-11-22 20:02:16 INFO  App_Utilities 66 - Chromedriver setup is done
+2021-11-22 20:02:17 INFO  CreateAccount_test 107 - TC_13 is Started
+2021-11-22 20:02:24 INFO  App_Utilities 105 - Total time taken: 9655
+2021-11-22 20:02:24 INFO  App_Utilities 106 - extent report flushed
+2021-11-22 20:03:18 INFO  App_Utilities 66 - Chromedriver setup is done
+2021-11-22 20:03:20 INFO  CreateAccount_test 107 - TC_13 is Started
+2021-11-22 20:03:29 INFO  App_Utilities 105 - Total time taken: 12134
+2021-11-22 20:03:29 INFO  App_Utilities 106 - extent report flushed
+2021-11-22 20:03:53 INFO  App_Utilities 66 - Chromedriver setup is done
+2021-11-22 20:03:55 INFO  CreateAccount_test 47 - TC_10 is Started
+2021-11-22 20:04:02 INFO  App_Utilities 66 - Chromedriver setup is done
+2021-11-22 20:04:03 INFO  CreateAccount_test 66 - TC_11 is Started
+2021-11-22 20:04:10 INFO  App_Utilities 66 - Chromedriver setup is done
+2021-11-22 20:04:12 INFO  CreateAccount_test 82 - TC_12 is Started
+2021-11-22 20:04:18 INFO  App_Utilities 66 - Chromedriver setup is done
+2021-11-22 20:04:19 INFO  CreateAccount_test 107 - TC_13 is Started
+2021-11-22 20:04:26 INFO  App_Utilities 66 - Chromedriver setup is done
+2021-11-22 20:04:28 INFO  CreateAccount_test 137 - TC_14 is Started
+2021-11-22 20:04:39 INFO  App_Utilities 105 - Total time taken: 47385
+2021-11-22 20:04:39 INFO  App_Utilities 106 - extent report flushed
+2021-11-22 20:07:32 INFO  App_Utilities 66 - Chromedriver setup is done
+2021-11-22 20:07:33 INFO  CreateOpp_test 56 - TC_16 is Started
+2021-11-22 20:07:44 INFO  App_Utilities 105 - Total time taken: 14026
+2021-11-22 20:07:44 INFO  App_Utilities 106 - extent report flushed
+2021-11-22 20:09:25 INFO  App_Utilities 66 - Chromedriver setup is done
+2021-11-22 20:09:27 INFO  CreateOpp_test 56 - TC_16 is Started
+2021-11-22 20:09:33 INFO  App_Utilities 105 - Total time taken: 9507
+2021-11-22 20:09:33 INFO  App_Utilities 106 - extent report flushed
+2021-11-22 20:16:34 INFO  App_Utilities 66 - Chromedriver setup is done
+2021-11-22 20:16:35 INFO  CreateOpp_test 57 - TC_16 is Started
+2021-11-22 20:16:42 INFO  App_Utilities 105 - Total time taken: 9525
+2021-11-22 20:16:42 INFO  App_Utilities 106 - extent report flushed
+2021-11-22 20:19:08 INFO  App_Utilities 66 - Chromedriver setup is done
+2021-11-22 20:19:10 INFO  CreateOpp_test 57 - TC_16 is Started
+2021-11-22 20:19:19 INFO  App_Utilities 105 - Total time taken: 12329
+2021-11-22 20:19:19 INFO  App_Utilities 106 - extent report flushed
+2021-11-22 20:22:41 INFO  App_Utilities 66 - Chromedriver setup is done
+2021-11-22 20:22:42 INFO  CreateOpp_test 45 - TC_15 is Started
+2021-11-22 20:22:48 INFO  App_Utilities 66 - Chromedriver setup is done
+2021-11-22 20:22:50 INFO  CreateOpp_test 57 - TC_16 is Started
+2021-11-22 20:22:58 INFO  App_Utilities 66 - Chromedriver setup is done
+2021-11-22 20:23:01 INFO  CreateOpp_test 93 - TC_17 is Started
+2021-11-22 20:23:09 INFO  App_Utilities 66 - Chromedriver setup is done
+2021-11-22 20:23:10 INFO  CreateOpp_test 105 - TC_18 is Started
+2021-11-22 20:23:16 INFO  App_Utilities 66 - Chromedriver setup is done
+2021-11-22 20:23:17 INFO  CreateOpp_test 117 - TC_19 is Started
+2021-11-22 20:23:24 INFO  App_Utilities 105 - Total time taken: 44987
+2021-11-22 20:23:24 INFO  App_Utilities 106 - extent report flushed
+2021-11-22 20:24:26 INFO  App_Utilities 66 - Chromedriver setup is done
+2021-11-22 20:24:27 INFO  Leads_test 101 - TC_24 is Started
+2021-11-22 20:24:33 INFO  App_Utilities 105 - Total time taken: 8683
+2021-11-22 20:24:33 INFO  App_Utilities 106 - extent report flushed
+2021-11-22 20:27:48 INFO  App_Utilities 66 - Chromedriver setup is done
+2021-11-22 20:27:50 INFO  Leads_test 101 - TC_24 is Started
+2021-11-22 20:27:58 INFO  App_Utilities 105 - Total time taken: 11949
+2021-11-22 20:27:58 INFO  App_Utilities 106 - extent report flushed
+2021-11-22 20:28:32 INFO  App_Utilities 66 - Chromedriver setup is done
+2021-11-22 20:28:34 INFO  Leads_test 42 - TC_20 is Started
+2021-11-22 20:28:40 INFO  App_Utilities 66 - Chromedriver setup is done
+2021-11-22 20:28:41 INFO  Leads_test 54 - TC_21 is Started
+2021-11-22 20:28:46 INFO  App_Utilities 66 - Chromedriver setup is done
+2021-11-22 20:28:47 INFO  Leads_test 67 - TC_22 is Started
+2021-11-22 20:29:00 INFO  App_Utilities 66 - Chromedriver setup is done
+2021-11-22 20:29:02 INFO  Leads_test 89 - TC_23 is Started
+2021-11-22 20:29:08 INFO  App_Utilities 66 - Chromedriver setup is done
+2021-11-22 20:29:10 INFO  Leads_test 101 - TC_24 is Started
+2021-11-22 20:29:17 INFO  App_Utilities 105 - Total time taken: 23956
+2021-11-22 20:29:17 INFO  App_Utilities 106 - extent report flushed
